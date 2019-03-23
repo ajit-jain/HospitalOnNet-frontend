@@ -1,0 +1,174 @@
+.cover-img {
+    width: 100%;
+    background-image: url(./../../assets/images/cover.svg);
+    padding-bottom: 37%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper .heading h1 {
+    margin-bottom: 0;
+    color:#1573B7;
+}
+
+.wrapper .heading {
+    text-align: center;
+}
+
+.wrapper .heading p {
+    color: #6F6F6F;
+}
+
+.wrapper .app-flow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .app-flow .card {
+    /* flex-basis: 31%;
+    text-align: center;
+    border: 1px solid #F3F3F3;
+    padding: 40px 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #E9E9E9, -2px 0px 0px #E9E9E9; */
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F3F3F3;
+    padding: 40px 100px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #E9E9E9, -2px 0px 0px #E9E9E9;
+}
+.app-flow .card img{
+    width: 60px;
+}
+.app-flow .card p {
+    color: #6F6F6F;
+    line-height: 1.5;
+}
+.btn-card {
+    padding: 4px 15px;
+    border: 2px solid #1573B7;
+    border-radius: 9px;
+    color: #1573B7;
+    cursor: pointer;
+}
+
+.app-flow .card h3 {
+    color: #1573B7;
+}
+.right-arrow{
+    width: 10px;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+
+}
+.services {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.services h1 {
+    color: #1573B7;
+}
+.services .tags .tag {
+    max-width: 300px;
+    float: left;
+    background: #FFFFFF;
+    padding: 10px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #1573B7;
+    border: 1px solid #1573B7;
+}
+.btn-card:hover,.tag:hover {
+    background: #1573B7 !important;
+    color: white !important;
+    font-weight: 700;
+
+}
+
+.services .tags {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+}
+.formControl {
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    padding: 5px 8px;
+    width: 100%;
+}
+form {
+    width: 90%;
+    margin: auto;
+}
+.contactUs {
+    width: 100%;
+}
+.contactUs h1 {
+    text-align: center;
+    color: #1573B7;
+}
+form .control {
+    float: left;
+    text-align: center;
+}
+.width48 {
+    width: 48%;
+    
+}
+.width100 {
+    width: 100%;
+
+}
+.wrapper,.contactUs {
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+.testimonials {
+    padding: 20px 0 0px 0;
+    border-bottom: 1px solid #FFFFFF; 
+}
+footer {
+    width:100%;
+    padding: 40px 20px;
+    text-align: center;
+    background: #1B1B1B;
+    color: white;
+    font-weight: bolder;
+}
+@media screen and (max-width:420px){
+    .tags .tag {
+        max-width: 200px;
+        padding: 5px;
+        margin: 2px 2px;
+        border-radius: 2px;
+        font-size: 0.7rem;
+    }
+    .app-flow {
+        flex-direction: column;
+    }
+    .wrapper .app-flow .card {
+        width: 85%;
+    margin: auto auto 10px auto;
+    }
+    
+}
